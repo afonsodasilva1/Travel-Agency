@@ -35,8 +35,6 @@ export function App() {
 
             <div className='w-px h-6 bg-zinc-800' />
             
-           
-
             {isGuestsInputOpen ? (
                 <button className='bg-zinc-800 text-zinc-200 rounded-lg px-5 py-2 font-medium flex items-center gap-2'>
                    Alterar local/data
