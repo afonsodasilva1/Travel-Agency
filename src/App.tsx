@@ -1,4 +1,4 @@
-import { MapPin, Calendar, ArrowRight, UserRoundPlus, Settings2, X } from 'lucide-react'
+import { MapPin, Calendar, ArrowRight, UserRoundPlus, Settings2, X, AtSign, Plus } from 'lucide-react'
 import { useState } from 'react'
 
 export function App() {
@@ -154,6 +154,18 @@ export function App() {
              </div>
 
              <div className='w-full h-px bg-zinc-800'/>
+
+             <form className='p-2.5  bg-zinc-950 border border-zinc-800 rounded-lg flex items-center'>
+              <div className='px-2 flex items-center flex-1 gap-2'>
+                <AtSign className='size-5 text-zinc-400'/> 
+                <input type="text" placeholder="Digite o e-mail do convidado" className='bg-transparent text-lg placeholder-zinc-400 outline-none flex-1' />
+              </div>
+              
+              <button className='bg-lime-300 text-lime-950 rounded-lg px-5 py-2 font-medium flex items-center gap-2 hover:bg-lime-500'>
+                Convidar
+                <Plus className='size-5'/>
+              </button>
+             </form>
           </div>
         </div>
       )}
