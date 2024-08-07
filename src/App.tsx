@@ -5,6 +5,9 @@ export function App() {
 
   const [ isGuestsInputOpen, setIsGuestsInputOpen] = useState(false)
   const [ isGuestsModalOpen, setIsGuestsModalOpen] = useState(false)
+  const [ emailsToInvate, setEmailToInvate] = useState([
+    'afonsodasilva0308@gmail.com '
+  ])
 
   function openGuestsInput () {
 
