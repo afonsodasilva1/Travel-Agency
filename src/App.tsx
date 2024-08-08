@@ -6,7 +6,7 @@ export function App() {
   const [ isGuestsInputOpen, setIsGuestsInputOpen] = useState(false)
   const [ isGuestsModalOpen, setIsGuestsModalOpen] = useState(false)
   const [ emailsToInvate, setEmailToInvate] = useState([
-    'afonsodasilva0308@gmail.com '
+    'pombaldebora7@debby.space.ao'
   ])
 
   function openGuestsInput () {
@@ -122,38 +122,6 @@ export function App() {
                   
                 </div>
 
-                <div className='py-1.5 px-2.5 rounded-md bg-zinc-800 flex items-center justify-between gap-2'>
-                  <span className='text-zinc-300'>
-                    maurotwister@smadcode.ao.co
-                  </span>
-                  
-                  <button type="button">
-                    <X className='size-4 text-zinc-400'/>
-                  </button>
-                  
-                </div>
-
-                <div className='py-1.5 px-2.5 rounded-md bg-zinc-800 flex items-center justify-between gap-2'>
-                  <span className='text-zinc-300'>
-                    maurotwister@smadcode.ao.co
-                  </span>
-                  
-                  <button type="button">
-                    <X className='size-4 text-zinc-400'/>
-                  </button>
-                  
-                </div>
-
-                <div className='py-1.5 px-2.5 rounded-md bg-zinc-800 flex items-center justify-between gap-2'>
-                  <span className='text-zinc-300'>
-                    maurotwister@smadcode.ao.co
-                  </span>
-                  
-                  <button type="button">
-                    <X className='size-4 text-zinc-400'/>
-                  </button>
-                  
-                </div>
              </div>
 
              <div className='w-full h-px bg-zinc-800'/>
